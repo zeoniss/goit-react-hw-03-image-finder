@@ -69,7 +69,7 @@ class App extends Component {
         {this.state.isLoading && (
           <Loader
             type="Bars"
-            color="forestgreen"
+            color="Purple"
             height={100}
             width={100}
             timeout={3000} //3 secs
