@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Loader from 'react-loader-spinner';
 import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
-
 import Searchbar from './components/Searchbar';
 import ImageGallery from './components/ImageGallery';
 import Button from './components/Button/Button';
@@ -69,7 +68,7 @@ class App extends Component {
         {this.state.isLoading && (
           <Loader
             type="Bars"
-            color="Purple"
+            color="Forestgreen"
             height={100}
             width={100}
             timeout={3000} //3 secs
